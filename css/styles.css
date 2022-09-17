@@ -1,0 +1,178 @@
+/*  geral */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+    color:white;
+    box-sizing: border-box;
+}
+body {
+    background: url("../img/pexels-photo-638479.jpeg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+input {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+p{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 0.5rem ;
+}
+button {
+    background-color: black;
+    color: white;
+    border: 2px solid #101010;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    
+}
+button:hover {
+    background-color: red;
+}
+button {
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+}
+
+button i {
+    font-weight: bold;
+}
+input, select{
+    padding: 0.25rem 0.5rem;
+}
+#filter-select {
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+#filter-select:hover {
+    background-color: red;
+}
+#opt {
+    background-color: black;
+}
+/* to do header */
+.todo-conteiner {
+    max-width: 500px;
+    margin: 3rem auto;
+    background-color: rgba(0, 0, 0, 0.37);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.todo-conteiner input{
+    width: 300px;
+}
+.todo-conteiner header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+}
+#todo-form, #edit-form {
+    padding: 1rem;
+    border-bottom: 1px solid white;
+}
+#todo-form p, #editform p {
+    margin-bottom: .3rem;
+    
+}
+.form-control {
+    padding: 0.5rem;
+    display: flex;
+   
+}
+.form-control input {
+    margin-right: 1rem;
+}
+#cancel-edit-btn {
+    margin-left: 0.5rem;
+    width: 70px;
+}
+/* to do tolbar */
+#toolbar {
+    padding:  1rem;
+    border-bottom: 1px solid white;
+    display: flex;
+    
+}
+#filter-select {
+    margin-left: 1rem;
+    flex: 1;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 2px solid #101010; 
+}
+#filter p {
+    margin-left: 1rem;
+}
+#search {
+    border-right: 1px solid white;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#search-form {
+    display: flex;
+}
+#search-input{
+    margin-right: 0.3rem;
+}
+#filter {
+    flex: 1;
+}
+#erase-button {
+    margin-left: 270px;
+}
+/* to do list */
+.making {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 1px solid white;
+}
+.to-do {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.making p {
+    flex: 1;
+}
+.making button {
+    margin-left: 0.3rem;
+}
+.to-do p {
+    flex: 1;
+}
+.to-do button {
+    margin-left: 00.3rem;
+}
+.execute {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.execute p {
+    color: cadetblue;
+    text-decoration: line-through;
+    font-style: italic;
+}
+.execute1 {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+.execute1 p {
+    color: cadetblue;
+    text-decoration: line-through;
+    font-style: italic;
+}
